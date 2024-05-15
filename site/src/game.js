@@ -136,7 +136,7 @@ function GameApp() {
     ];
 
     for (let jogo of jogos) {
-      let todasAsCasasPreenchidas = true;
+      // let todasAsCasasPreenchidas = true;
   
       for (let linha of linhas) {
         const [a, b, c] = linha;
@@ -150,10 +150,10 @@ function GameApp() {
             setJogoprincipal(copiaprincipal);
           }
   
-          else if (todasAsCasasPreenchidas) {
-            copiaprincipal[index] = "empate"
-            setJogoprincipal(copiaprincipal);
-          }
+          // else if (todasAsCasasPreenchidas) {
+          //   copiaprincipal[index] = "empate"
+          //   setJogoprincipal(copiaprincipal);
+          // }
         }
       }
     }
